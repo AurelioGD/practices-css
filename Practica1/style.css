@@ -1,0 +1,52 @@
+body{
+    background-color:#1b1b1b;
+    color: aliceblue;
+    margin: 10px;
+}
+img{
+    width: 50px;
+}
+/*Header*/
+.logo{
+    width: 80px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color:#424242;
+}
+ul{
+    display:flex;
+    margin: 0;
+}
+li{
+    list-style: none;
+    padding: 25px;
+    
+}
+li:hover{
+    background-color: #6d6d6d;
+}
+
+
+/*Content*/
+.main-content{
+    display: flex;
+    display: row;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin: 50px;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+footer img{
+    margin: 10px;
+}
