@@ -1,0 +1,87 @@
+/*------JUSTIFY-CONTENT------*/
+/*Basics styles*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    text-align: center;
+}
+.container-justify{
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    margin: auto;
+}
+div[class*="container-justify-C"]{
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 5px ;
+}
+div[class*="justify-item"]{
+    color: aliceblue;
+    background-color:#01579b;
+    padding: 20px;
+    
+}
+div[class*="justify-item"]:nth-child(odd){
+    background-color:#424242;
+}
+/*Settings of flex box(Justify-content)*/
+.container-justify-C1{
+    justify-content: flex-start;
+}
+.container-justify-C2{
+    justify-content: flex-end;
+}
+.container-justify-C3{
+    justify-content: center;
+}
+.container-justify-C4{
+    justify-content: space-between;
+}
+.container-justify-C5{
+    justify-content: space-around;
+}
+.container-justify-C6{
+    justify-content: space-evenly;
+}
+/*------ALIGN-CONTENT------*/
+/*Basics styles*/
+.container-align{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+div[class*="container-align-C"]{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: #494949;
+    display: flex;
+    flex-wrap: wrap;
+}
+div[class*="align-item"]{
+    background-color: #f44336;
+    padding: 20px;
+    margin: 5px;
+}
+/*Settings of flex box(Align-content)*/
+.container-align-C1{
+    align-content: flex-start;
+}
+.container-align-C2{
+    align-content: flex-end;
+}
+.container-align-C3{
+    align-content: center;
+}
+.container-align-C4{
+    align-content: stretch;
+}
+.container-align-C5{
+    align-content: space-between;
+}
+.container-align-C6{
+    align-content: space-around;
+}
